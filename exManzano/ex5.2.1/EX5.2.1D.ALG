@@ -19,17 +19,24 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   
+
+   graos <- 0
+   quadro <- 1
+   somatoria <- 0
+
    graos <- 1
-   
+
    repita
-   
-   somatoria<- somatoria+graos
-   graos <- graos*2
-   quadro<-quadro+1
-   
-   ate quadro > 63
-   
+
+      somatoria<- somatoria+graos
+
+      escreval(quadro,"° Quadro"," Grãos: ",graos," Somatória: ",somatoria)
+
+      graos <- graos*2
+      quadro<-quadro+1
+
+   ate quadro > 64
+
    escreval("Se pode obter ",somatoria," grãos em um tabuleiro de xadrez")
 
 Fimalgoritmo
