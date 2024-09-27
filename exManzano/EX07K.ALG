@@ -1,24 +1,24 @@
 Algoritmo "ex07K"
-// Disciplina   : [Lógica de Programação com Javascript]
+// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o com Javascript]
 // Professor   : Jailson
-// Descrição   :  Solicitando valor em real e convertendo para dólar e pedindo a cotação atual
+// Descriï¿½ï¿½o   :  Solicitando valor em real e convertendo para dï¿½lar e pedindo a cotaï¿½ï¿½o atual
 // Autor(a)    : Caio Monte Santo Barbosa
 // Data atual  : 03/09/2024
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
 cotacaoReal, reaisDisponiveis,dolar:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-escreval("Conversor de Real para Dólar")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+escreval("Conversor de Real para Dï¿½lar")
 escreval("------------------------------------------------------")
-escreva("Digite a cotação atual (real em relação ao dólar):")
+escreva("Digite a cotaï¿½ï¿½o atual (real em relaï¿½ï¿½o ao dï¿½lar):")
 leia(cotacaoReal)
-escreva("Digite o valor em real para conversão:")
+escreva("Digite o valor em real para conversï¿½o:")
 leia(reaisDisponiveis)
 escreval("-------------------------------------------------------")
 
-dolar <- reaisDisponiveis*cotacaoReal
+dolar <- reaisDisponiveis/cotacaoReal
 
 escreva("O valor de ",reaisDisponiveis:2:2," R$ convertido fica igual a: ",dolar:2:2,"$")
 
